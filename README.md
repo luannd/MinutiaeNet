@@ -58,19 +58,19 @@ Download models and put into `Models` folder.
 
 # Demo
 To help understanding MinutiaeNet, there are 3 notebooks for you to play around:
- - Understanding CoarseNet: [demoCoarseNet.ipynb](Demo_notebooks/demoCoarseNet.ipynb)
- - Understanding FineNet: [demoFineNet.ipynb](Demo_notebooks/demoFineNet.ipynb)
- - MinutiaeNet - a combination of CoarseNet and FineNet: [demoMinutiaeNet.ipynb](Demo_notebooks/demoMinutiaeNet.ipynb)
+ - Understanding CoarseNet: [demo_CoarseNet.ipynb](Demo_notebooks/demo_CoarseNet.ipynb)
+ - Understanding FineNet: [demo_FineNet.ipynb](Demo_notebooks/demo_FineNet.ipynb)
+ - MinutiaeNet - a combination of CoarseNet and FineNet: [demo_MinutiaeNet.ipynb](Demo_notebooks/demoMinutiaeNet.ipynb)
  
 # Usage
  - **FineNet**
-* [demoFineNet.ipynb](Demo_notebooks/demoFineNet.ipynb) is useful if you want to integrate into existing minutiae dectection framework/SDKs. It shows an example of using a pre-trained model to verify the detection in your own images.
-* [trainFineNet.ipynb](Demo_notebooks/trainFineNet.ipynb) shows how to train FineNet on your own dataset. 
+* [demo_FineNet.ipynb](Demo_notebooks/demo_FineNet.ipynb) is useful if you want to integrate into existing minutiae dectection framework/SDKs. It shows an example of using a pre-trained model to verify the detection in your own images.
+* [train_FineNet.ipynb](Demo_notebooks/train_FineNet.ipynb) shows how to train FineNet on your own dataset. 
 
 
  - **CoarseNet**
-* [demoCoarseNet.ipynb](Demo_notebooks/demoCoarseNet.ipynb) can be called to generate minutiae as well as masks and orientation.
-* [trainCoarseNet.ipynb](Demo_notebooks/trainCoarseNet.ipynb) shows how to train CoarseNet on your own dataset. 
+* [demo_CoarseNet.ipynb](Demo_notebooks/demo_CoarseNet.ipynb) can be called to generate minutiae as well as masks and orientation.
+* [train_CoarseNet.ipynb](Demo_notebooks/train_CoarseNet.ipynb) shows how to train CoarseNet on your own dataset. 
 
 Python files which can run directly from command line are also provided.
 Note that models as well as architectures here are slightly different from the paper because of the continuing development of this project
