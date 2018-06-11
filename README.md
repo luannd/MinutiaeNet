@@ -3,7 +3,7 @@
 By Dinh-Luan Nguyen, Kai Cao and Anil K.Jain
 
 
-<img src="assets/Pic1.gif" width="300"/> <img src="assets/Pic2.gif" width="300"/>
+<img src="assets/Pic1.gif" width="300"/><img src="" width="100"/> <img src="assets/Pic2.gif" width="300"/>
 
 ### Introduction
 We present the framework called **MinutiaeNet** including CoarseNet and FineNet
