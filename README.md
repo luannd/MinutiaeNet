@@ -2,6 +2,9 @@
 
 By Dinh-Luan Nguyen, Kai Cao and Anil K.Jain
 
+
+<img src="assets/Pic1.gif" width="300"/> <img src="assets/Pic2.gif" width="300"/>
+
 ### Introduction
 We present the framework called **MinutiaeNet** including CoarseNet and FineNet
 
@@ -17,8 +20,8 @@ We refer reader to read [FineNet_architecture.pdf](assets/FineNet_architecture.p
 
 The repository includes:
 * Source code of Minutiae Net which includes CoarseNet and FineNet.
-* Training code for FineNet
-* Pre-trained weights for FineNet
+* Training code for FineNet and CoarseNet
+* Pre-trained weights for FineNet and CoarseNet
 * Jupyter notebooks to visualize the minutiae detection pipeline at every step
 
 
@@ -53,14 +56,15 @@ To make life easier, I suggest to use Anaconda for easy installation. Version us
   conda install cv2, numpy, scipy, matplotlib, pydot, graphviz
   ```
 Download models and put into `Models` folder.
+- **CoarseNet**: https://drive.google.com/file/d/1alvw_kAyY4sxdzAkGABQR7waux-rgJKm/view?usp=sharing
 - **FineNet**: https://drive.google.com/file/d/1wdGZKNNDAyN-fajjVKJoiyDtXAvl-4zq/view?usp=sharing
 
 
 # Demo
-To help understanding MinutiaeNet, there are 3 notebooks for you to play around:
+To help understanding MinutiaeNet, there are 2 notebooks for you to play around:
  - Understanding CoarseNet: [demo_CoarseNet.ipynb](Demo_notebooks/demo_CoarseNet.ipynb)
  - Understanding FineNet: [demo_FineNet.ipynb](Demo_notebooks/demo_FineNet.ipynb)
- - MinutiaeNet - a combination of CoarseNet and FineNet: [demo_MinutiaeNet.ipynb](Demo_notebooks/demoMinutiaeNet.ipynb)
+ - MinutiaeNet - a combination of CoarseNet and FineNet: set `isHavingFineNet = False` in CoarsetNet if you want to fuse results from CoarseNet and FineNet
  
 # Usage
  - **FineNet**
