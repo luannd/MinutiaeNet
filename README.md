@@ -52,7 +52,7 @@ If you find MinutiaeNet useful in your research, please citing:
 4. [Usage](#usage)
 
 # Requirements: software
-`Python 2.7`, `Tensorflow`, `Keras`.
+`Python 2.7`, `Tensorflow 1.7.0`, `Keras 2.1.6`.
 
 # Installation
 To make life easier, I suggest to use Anaconda for easy installation. Version using pip is similar.
@@ -60,8 +60,8 @@ To make life easier, I suggest to use Anaconda for easy installation. Version us
   conda install cv2, numpy, scipy, matplotlib, pydot, graphviz
   ```
 Download models and put into `Models` folder.
-- **CoarseNet**: [Google drive](https://drive.google.com/file/d/1alvw_kAyY4sxdzAkGABQR7waux-rgJKm/view?usp=sharing)  [Dropbox](https://www.dropbox.com/s/gppil4wybdjcihy/CoarseNet.h5?dl=0)
-- **FineNet**: [Google drive](https://drive.google.com/file/d/1wdGZKNNDAyN-fajjVKJoiyDtXAvl-4zq/view?usp=sharing)  [Dropbox](https://www.dropbox.com/s/k7q2vs9255jf2dh/FineNet.h5?dl=0)
+- **CoarseNet**: [Googledrive](https://drive.google.com/file/d/1alvw_kAyY4sxdzAkGABQR7waux-rgJKm/view?usp=sharing)    ||    [Dropbox](https://www.dropbox.com/s/gppil4wybdjcihy/CoarseNet.h5?dl=0)
+- **FineNet**: [Googledrive](https://drive.google.com/file/d/1wdGZKNNDAyN-fajjVKJoiyDtXAvl-4zq/view?usp=sharing)    ||    [Dropbox](https://www.dropbox.com/s/k7q2vs9255jf2dh/FineNet.h5?dl=0)
 
 
 
