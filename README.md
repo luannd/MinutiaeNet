@@ -8,7 +8,7 @@ By Dinh-Luan Nguyen, Kai Cao and Anil K.Jain
     <img src="assets/Pic2.gif" width="300"/>
 </div>
 
-
+For precise fingerprint segmentation, let's refer to this paper: [Automatic Latent Fingerprint Segmentation](https://arxiv.org/pdf/1804.09650.pdf)
 ### Introduction
 We present the framework called **MinutiaeNet** including CoarseNet and FineNet
 
